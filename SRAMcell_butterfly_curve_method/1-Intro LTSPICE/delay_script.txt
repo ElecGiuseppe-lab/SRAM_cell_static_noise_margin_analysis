@@ -1,0 +1,6 @@
+.measure tran ritardo_rise trig v(In) val=0.5 fall=1 targ v(Out) val=0.5 rise=1
+
+.measure tran ritardo_fall trig v(In) val=0.5 rise=1 targ v(Out) val=0.5 fall=1
+
+
+.measure tran energia2 INTEG (v(supply)*i(V1)) from=18n to=22n

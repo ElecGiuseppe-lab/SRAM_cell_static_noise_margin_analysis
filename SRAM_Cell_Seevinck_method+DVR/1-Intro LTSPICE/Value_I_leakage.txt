@@ -1,0 +1,1 @@
+.measure dc I_leakage MIN(i(V1))
